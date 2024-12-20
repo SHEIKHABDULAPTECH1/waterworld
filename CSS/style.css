@@ -1,0 +1,352 @@
+/* Top Bar Start */
+.top-bar-container {
+    /* background-color: blue; */
+    background-color: black;
+    line-height: 38px;
+    height: 40px;
+    color: white;
+}
+
+.contact-info {
+    margin-left: 10px;
+}
+
+.mail {
+    margin-left: 10px;
+}
+
+.call-icon {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    top: -2px;
+}
+
+.mail-icon{
+    width: 27px;
+    height: 26px;
+    position: relative;
+    top: -2px;
+}
+
+.fb-icon img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 115px;
+}
+.insta-icon img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+}
+.x-icon img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 45px ;
+}
+.yt-icon img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 10px ;
+}
+/* Top Bar End */
+
+/* Navbar Start */
+.navbar {
+    height: 90px;
+}
+#logo {
+    width: 160px;
+    height: 120px;
+    position: relative;
+    left: 15%;
+}
+
+#nav-color {
+    /* background-color: rgb(255, 208, 80); */
+    background-color: rgb(0, 0, 158);
+      
+}
+
+.nav-link {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    margin: 5px 10px;
+}
+
+.nav-link:hover {
+    /* background-color: white; */
+    border-bottom: 2px solid aqua;
+
+}
+/* Navbar End */
+
+/* Crousel Start */
+.carousel-overlay {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 82%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    z-index: 1; /* Keeps overlay above carousel */
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Text color to make it visible */
+    font-size: 2rem; /* Adjust font size */
+    text-align: center; /* Center text */
+    pointer-events: none; /* Keeps carousel controls clickable */
+  }
+  
+  
+
+
+.carousel-item img{
+    height: 550px;
+}
+
+.carousel-item {
+    height: 520px;
+}
+
+/* .carousel-item  {
+    height: 1000px;
+} */
+
+
+
+
+
+/* Crousel End */
+
+/* Welcome section start */
+
+.welcome-section {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+  
+.welcome-section .btn-primary {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+  
+  /* Booking and Timing Section */
+
+.booking-timing-section {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+  
+.booking-card, .timing-card {
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+  
+.booking-card:hover, .timing-card:hover {
+    transform: scale(1.05);
+}
+  
+  /* Features Section */
+.features-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: url('../Images/why\ visit\ us.jpg') no-repeat center center/cover;
+}
+  
+  .feature-card {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+/* Welcome Section End  */
+
+
+/* Footer Start */
+.footer-container {
+    /* background-color: rgb(255, 208, 80); */
+    /* background-color: aquamarine; */
+    background-color: rgb(0, 0, 158);
+    color: white;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 145px;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+
+.footer-para {
+    margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none; 
+    color: inherit; 
+    
+}
+
+.menu img {
+    width: 25px;
+    height: 20px;
+}
+
+.footer-contact {
+    margin-left: 5px;
+}
+
+.footer-icons {
+    display: flex;
+    list-style: none;
+}
+
+.ft-fb-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 70px;
+}
+.ft-insta-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    /* top: 2768px; */
+    /* top: 5px; */
+    left: 12px;
+}
+.ft-twitter-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 12px;
+    /* top: 2768px; */
+}
+.ft-yt-icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 12px;
+    /* top: 2813px; */
+}
+
+.footer-heads{
+    font-family: cursive;
+    display: inline-block; 
+    position: relative; 
+    font-weight: bold;
+}
+
+.footer-heads::after {
+    content: ""; 
+    display: block; 
+    width: 40%; 
+    height: 2px; 
+    background-color: aqua; 
+    margin: 5px; 
+    margin-top: 5px; 
+    
+}
+/* Footer End */
+
+/* Responsive Design with Media Queries */
+
+/* For Tablets and Below */
+@media (max-width: 768px) {
+    .top-bar-container .contact-info {
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 15px;
+    }
+  
+    .footer-container {
+      padding: 30px 0;
+    }
+  
+    .footer-container .row {
+      text-align: center;
+    }
+  
+    .footer-container .col-lg-3, .footer-container .col-md-4, .footer-container .col-sm-6 {
+      margin-bottom: 20px;
+    }
+  
+    .footer-para {
+      font-size: 13px;
+    }
+  }
+  
+  /* For Mobile Devices */
+  @media (max-width: 576px) {
+    .top-bar-container .contact-info span {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .top-bar-container .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .footer-container .row {
+      text-align: center;
+    }
+  
+    .footer-container .col-lg-3, .footer-container .col-md-4, .footer-container .col-sm-6 {
+      margin-bottom: 20px;
+    }
+  
+    .footer-heads {
+      font-size: 16px;
+    }
+  
+    .footer-para {
+      font-size: 12px;
+    }
+  }
+

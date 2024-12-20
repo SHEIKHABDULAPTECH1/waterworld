@@ -1,0 +1,95 @@
+/* Section Start */
+.parkinfo{
+    text-align: left;
+    text-decoration: solid;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+color: black;
+
+}
+.img-thumbnail{
+    border: 2px solid black;
+    padding: 10px;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 2px;
+    
+}
+.parklogo{
+    text-align: center;
+    color: black;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.location {
+    background-color: #fdd835;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.location .button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 10px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.location .button:hover {
+    background-color: yellow;
+    color: white;
+    text-decoration: none;
+}
+
+.news {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.news h2 {
+    color: black;
+    margin: 5px;
+}
+
+.news p {
+    color: black;
+    font-size: 16px;
+    margin: 10px  ;
+}
+
+.news form {
+    display: inline-block;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.news button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    
+}
+
+.news button:hover {
+    background-color: lightblue;
+}
+
+
+
+
+/* Section End */

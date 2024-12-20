@@ -1,0 +1,181 @@
+/* Section Start */
+
+    
+
+.parklogo{
+    text-align: end;
+    color: black;
+    text-decoration: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.location {
+    background-color: #fdd835;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.location .button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 10px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.location .button:hover {
+    background-color: yellow;
+    color: white;
+    text-decoration: none;
+}
+
+.news {
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.news h2 {
+    color: black;
+    margin: 5px;
+}
+
+.news p {
+    color: black;
+    font-size: 16px;
+    margin: 10px  ;
+}
+
+.news form {
+    display: inline-block;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.news button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    
+}
+
+.news button:hover {
+    background-color: lightblue;
+}
+.facilities-image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+.facilities2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}        
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+
+.facilitie-title {
+text-align: center;
+margin: 20px 0;
+font-size: 24px;
+color: #444;
+}
+
+
+.facilitie {
+display: grid;
+grid-template-columns: auto auto;
+gap: 25px;
+padding: 60px;
+margin: 0 auto;
+max-width: 1300px;
+background: #fff;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Item */
+.facilitie-item {
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+cursor: pointer;
+}
+
+.facilitie-item img {
+width: 100%;
+height: auto;
+display: block;
+transition: transform 0.4s ease;
+}
+
+.facilitie-item .facilitie-item1:hover {
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.facilitie-item:hover img {
+transform: scale(1.1) rotate(1.2deg);
+}
+
+.facilitie-item1:hover img {
+transform: scale(1.1) rotate(0.2deg);
+
+}
+
+
+.facilities {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+color: #fff;
+text-align: center;
+padding: 10px;
+opacity: 0;
+transition: opacity 0.2s ease;
+margin-top: auto;
+display: none;
+}
+
+.facilitie-item:hover .facilities {
+opacity: 1;
+display: block;
+}
